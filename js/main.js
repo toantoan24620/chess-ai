@@ -1,5 +1,5 @@
 // độ khó của máy 
-var makeMove = function(algo, skill=3) { 
+var makeMove = function(algo, skill) { 
   // exit if the game is over
   if (game.game_over() === true) {
     console.log('game over');
@@ -49,6 +49,6 @@ var onDrop = function(source, target) {
 
   // make move for black
   window.setTimeout(function() {
-    makeMove(4, 5);
+    makeMove(4, 7);
   }, 250);
 };
