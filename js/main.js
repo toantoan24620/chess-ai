@@ -1,5 +1,5 @@
 // độ khó của máy 
-var makeMove = function(algo, skill=3) { 
+var makeMove = function(algo, skill) { 
   // exit if the game is over
   if (game.game_over() === true) {
     console.log('game over');
