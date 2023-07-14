@@ -27,7 +27,7 @@ var onDrop = function(source, target) {
   if (move === null) return 'snapback';
   // make move for black
   window.setTimeout(function() {
-    makeMove(3);
-  }, 250);
+    makeMove(5);
+  }, 15000);
 };
 
