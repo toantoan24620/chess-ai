@@ -28,6 +28,6 @@ var onDrop = function(source, target) {
   // make move for black
   window.setTimeout(function() {
     makeMove(5);
-  }, 15000);
+  }, 1000);
 };
 
